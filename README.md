@@ -54,8 +54,3 @@ A Flask-based API to predict downtime in manufacturing based on temperature and 
   ```bash
 curl -X POST -H "Content-Type: application/json" -d "{\"Temperature\": 80, \"Run_Time\": 120}" http://127.0.0.1:5000/predict
 
-
-
-
-
-
