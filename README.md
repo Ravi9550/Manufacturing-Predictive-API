@@ -46,11 +46,11 @@ A Flask-based API to predict downtime in manufacturing based on temperature and 
 1. Upload Dataset
    ```bash
    curl -X POST -F "file=@data/sample_dataset.csv" http://127.0.0.1:5000/upload
-2.Train Model
+2. Train Model
    ```bash
    curl -X POST http://127.0.0.1:5000/train
    ```
-3.Predict Downtime
+3. Predict Downtime
   ```bash
 curl -X POST -H "Content-Type: application/json" -d "{\"Temperature\": 80, \"Run_Time\": 120}" http://127.0.0.1:5000/predict
 
