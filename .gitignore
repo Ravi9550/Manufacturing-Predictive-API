@@ -1,0 +1,25 @@
+# Virtual environment
+env/
+venv/
+
+# Byte-compiled files
+*.pyc
+__pycache__/
+
+# Logs and system files
+*.log
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Test coverage
+.coverage
+htmlcov/
+
+# Pip environment
+pip-log.txt
